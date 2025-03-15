@@ -56,7 +56,7 @@ export type Settings = {
 export function getDefaultSettings(): Settings {
   return {
     autoplay: false,
-    engine: "https://engine.battlesnake.com",
+    engine: process.env.ENGINE_URL || "https://engine.battlesnake.com",
     fps: 6,
     game: "",
     loop: false,

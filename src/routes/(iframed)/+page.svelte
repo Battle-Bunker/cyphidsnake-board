@@ -58,6 +58,8 @@
     const url = new URL(window.location.href);
     settings = loadSettingsWithURLOverrides(url);
 
+    // console.log(`The engine url is '${settings.engine}'!`)
+
     setTheme(settings.theme);
 
     if (settings.game.length > 0 && settings.engine.length > 0) {
