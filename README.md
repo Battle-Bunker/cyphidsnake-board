@@ -2,7 +2,7 @@
 The board project is used to visualize and replay Battlesnake games, specifically made for the [CyphidSnake](https://github.com/Battle-Bunker/cyphid-snake) **paradigm**
 
 ## Development Server
-We recomend using [replit](repl.it) and SSH-ing into this repo using VSCode or any similar tool
+We recomend using [replit](repl.it) and SSH-ing into this repo using VSCode or any similar tool becuase replit doen't support Svelte
 
 ## Required Parameters
 
