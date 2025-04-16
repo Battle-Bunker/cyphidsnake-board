@@ -49,6 +49,7 @@ export function fetchGame(
       };
 
       ws.onmessage = (message) => {
+        console.debug("[playback] getting a frame...");
         const engineEvent = JSON.parse(message.data);
 
         if (engineEvent.Type == "frame" && !loadedFrames.has(engineEvent.Data.Turn)) {

@@ -58,8 +58,8 @@
     const url = new URL(window.location.href);
     settings = loadSettingsWithURLOverrides(url);
 
-    console.log(`Engine: ${settings.engine}`);
-    console.log(`GameID: ${settings.game || "No GameID"}`);
+    console.debug(`[debug] Engine: ${settings.engine}`);
+    console.debug(`[debug] GameID: ${settings.game || "No GameID"}`);
 
     setTheme(settings.theme);
 
